@@ -4,10 +4,11 @@ import logo from './logo.svg';
 import './App.css';
 import HelloTwo from './HelloTwo';
 import HelloThree from './HelloThree';
+import HelloFour from './HelloFour';
 
-const HelloWorld = () => <p>Hello World Four</p>;
+//const HelloWorld = () => <p>Hello World Four</p>;
 
-function App() {
+function App():JSX.Element {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +16,7 @@ function App() {
         {React.createElement('p', null, 'Hello World One')}
         <HelloTwo />
         <HelloThree />
-        <HelloWorld />
+        <HelloFour />
         <a
           className="App-link"
           href="https://reactjs.org"

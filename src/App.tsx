@@ -6,8 +6,6 @@ import HelloTwo from './HelloTwo';
 import HelloThree from './HelloThree';
 import HelloFour from './HelloFour';
 
-//const HelloWorld = () => <p>Hello World Four</p>;
-
 function App():JSX.Element {
   return (
     <div className="App">
